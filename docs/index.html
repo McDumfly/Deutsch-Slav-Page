@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code für Deutsch blin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="ikonbild.jpg" type="image/x-icon">
+</head>
+<body id="bg">
+    <h1>Jeden tag</h1>
+    <hr>
+    <br>
+    <h3>Blöd:</h3>
+    <ul>
+        <li class="libutton" onclick="startchaos()">Computer chaos</li>
+    </ul>
+    <br><br>
+    <h3>Spielen:</h3>
+    <ul>
+        <li class="libutton" onclick="startNummerSpiele()">Nummer spiele</li>
+        <li class="libutton" onclick="slavpage()">Slav Page</li><em>Minimize:</em><input type="checkbox" onclick="setSelected()" id="isminimized">
+    </ul>
+    <br><br>
+    <h3>Kode:</h3>
+    <ul>
+        <li>
+            <p>Terminal: </p><input class="terminal" type="search" id="terminal" onchange="testTerminal()">
+        </li>
+    </ul>
+</body>
+</html>

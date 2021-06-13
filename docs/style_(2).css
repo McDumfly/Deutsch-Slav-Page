@@ -1,0 +1,89 @@
+.slavicBackground {
+    background-image: url("https://wallpapercave.com/wp/wp4836182.jpg");
+}
+
+.slavicBackground {
+    background-color: black;
+}
+
+* {
+    color: yellow;
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu {
+    width: 35px;
+    height: 5px;
+    background-color: yellow;
+    margin: 6px 0;
+    margin-left: 97%;
+    cursor: pointer;
+}
+
+.menu:hover {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(168, 168, 5);
+    margin: 6px 0;
+    margin-left: 97%;
+    cursor: pointer;
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    border: black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: yellow;
+    font-family: 'Oswald', sans-serif;
+    border: yellow;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+hr {
+    border: 3px solid yellow;
+}
+
+.minimized {
+    font-size: 8px;
+}
+
+.musicPlayerBox {
+    background-color: yellow;
+    color: black;
+    width: 220px;
+    height: 200px;
+}
+
+.volumeControl {
+    cursor: pointer;
+    background: yellow;
+    border: yellow 2px solid;
+    border-radius: 4px;
+}
+
+.musicSearch {
+    background-color: yellow;
+    color: black;
+    border: black;
+    border-radius: 2px;
+}
+
+.musicSearch:hover {
+    background-color: rgb(168, 168, 5);
+    color: black;
+    border: black;
+    border-radius: 2px;
+}
+
+.musicList {
+    cursor: pointer;
+}
